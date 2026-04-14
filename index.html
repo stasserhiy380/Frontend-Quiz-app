@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+
+<header>
+
+</header>
+<main>
+  <div class="switch-theme-wrapper">
+    <img id="sun-icon" src = "assets/images/icon-sun-dark.svg" alt="sun light">
+    <label class="switch">
+      <input id="color-changer" type="checkbox">
+      <span class="slider round"></span>
+    </label>
+    <img id="moon-icon" src ="assets/images/icon-moon-dark.svg" alt="moon dark">
+  </div>
+  <div class="page">
+    <div class="header">
+      <h1>Welcome to the <span class="bold">Frontend Quiz</span></h1>
+      <p>Pick a subject to get started</p>
+    </div>
+  </div>
+
+  <div class="items">
+    <button id="html-button" class="item">
+      <img class="html-background icon-size" src="assets/images/icon-html.svg" alt ="html icon">
+      <p class="item-text">HTML</p>
+    </button>
+    <button id="css-button" class="item">
+      <img class="css-background icon-size" src="assets/images/icon-css.svg" alt ="html icon">
+      <p class="item-text">CSS</p>
+    </button>
+    <button id="javascript-button" class="item">
+      <img class="icon-size js-background" src="assets/images/icon-js.svg" alt ="html icon">
+      <p class="item-text">Javascript</p>
+    </button>
+    <button id="accessibility-button" class="item">
+      <img class="icon-size accessibility-background" src="assets/images/icon-accessibility.svg" alt ="html icon">
+      <p class="item-text">Accessibility</p>
+    </button>
+  </div>
+  
+
+</main>
+<script src="dist/index.js"></script>
+</body>
+</html>
